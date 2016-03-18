@@ -6,3 +6,23 @@ account_category:
   - :prospect
   - :prospective partner
   
+opportunity_default_stage: :prospect
+opportunity_stage:
+  - :prospect
+  - :analysis
+  - :presentation
+  - :proposal
+  - :negotiation
+  - :validation
+  - :won
+  - :lost
+  
+task_category:
+  - :call
+  - :email
+  - :follow_up
+  - :lunch
+  - :meeting
+  - :presentation
+  - :proposal
+  
