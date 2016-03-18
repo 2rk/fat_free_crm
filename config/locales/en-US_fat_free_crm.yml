@@ -34,6 +34,8 @@ en-US:
   admin_tab_plugins: Plugins
   affiliate: Affiliate
   competitor: Competitor
+  networking_group: Networking Group
+  prospective_partner: Prospective Partner
   customer: Customer
   partner: Partner
   reseller: Reseller
@@ -55,7 +57,7 @@ en-US:
   web: Website
   word_of_mouth: Word of Mouth
   other: Other
-  prospecting: Prospecting
+  prospecting: Prospect
   analysis: Analysis
   presentation: Presentation
   proposal: Proposal
@@ -162,11 +164,12 @@ en-US:
     attribute_options:
       opportunity:
         stage:
-          prospecting: Prospecting
+          prospect: Prospect
           analysis: Analysis
           presentation: Presentation
           proposal: Proposal
           negotiation: Negotiation
+          validation: Validation
           final_review: Final Review
           won: Closed/Won
           lost: Closed/Lost
