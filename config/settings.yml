@@ -1,21 +1,50 @@
 account_category:
-  - :competitor
-  - :customer
-  - :networking group
-  - :partner
   - :prospect
-  - :prospective partner
+  - :customer
+  - :partner
+  - :networking_group
+  - :prospective_partner
+  - :competitor
+  - :affiliate
+  - :reseller
+  - :vendor
+
+account_category_color:
+  :affiliate   : lavender
+  :competitor  : paleturquoise
+  :customer    : pink
+  :partner     : bisque
+  :reseller    : thistle
+  :vendor      : skyblue
+  :prospect    : skyblue
+  :prospective_partner    : skyblue
+  :networking_group    : skyblue
   
-opportunity_default_stage: :prospect
+  
+opportunity_default_stage: :prospecting
 opportunity_stage:
   - :prospect
+  - :prospecting
   - :analysis
   - :presentation
   - :proposal
   - :negotiation
+  - :final_review
   - :validation
   - :won
   - :lost
+
+opportunity_stage_color:
+  :prospecting  : Silver
+  :analysis     : PaleGoldenRod
+  :presentation : Salmon
+  :proposal     : Gold
+  :negotiation  : Orchid
+  :final_review : Turquoise
+  :won          : Lime
+  :lost         : OrangeRed
+  :prospect     : Silver
+  :validation   : Silver
   
 task_category:
   - :call
